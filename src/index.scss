@@ -1,0 +1,23 @@
+@import 'null';
+
+body {
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #e7f6ff;
+	font-size: 14px;
+	font-weight: 400;
+	position: relative;
+
+	&.lock {
+		overflow: hidden;
+	}
+}
+
+#root {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
