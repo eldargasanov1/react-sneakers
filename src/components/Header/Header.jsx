@@ -9,7 +9,7 @@ export const Header = ({ totalPrice, onClick }) => {
 		<header className={styles['header']}>
 			<Link to='/'>
 				<div className={styles.logo}>
-					<img src='src/assets/img/logo.png' alt='' />
+					<img src='img/logo.png' alt='' />
 					<div className='logo__info'>
 						<div className={styles['logo__title']}>REACT SNEAKERS</div>
 						<div className={styles['logo__subtitle']}>

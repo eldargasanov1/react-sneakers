@@ -48,11 +48,7 @@ export const Cart = ({
 				) : (
 					<div className={styles['empty-wrapper']}>
 						<Empty
-							imgUrl={
-								isOrdered
-									? 'src/assets/img/cart/02.png'
-									: 'src/assets/img/cart/01.png'
-							}
+							imgUrl={isOrdered ? 'img/cart/02.png' : 'img/cart/01.png'}
 							title={isOrdered ? 'Заказ оформлен!' : 'Корзина пустая'}
 							subtitle={
 								isOrdered

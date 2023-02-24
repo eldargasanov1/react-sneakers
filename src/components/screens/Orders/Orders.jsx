@@ -22,7 +22,7 @@ export const Orders = ({ orderItems, isOrderItemsLoading, searchValue }) => {
 			) : (
 				<div className={styles['empty-wrapper']}>
 					<Empty
-						imgUrl='src/assets/img/orders-emoji.png'
+						imgUrl='img/orders-emoji.png'
 						title='У вас нет заказов'
 						subtitle='Закажите что-нибудь!'
 					/>

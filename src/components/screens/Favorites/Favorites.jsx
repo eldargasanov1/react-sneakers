@@ -34,7 +34,7 @@ export const Favorites = ({
 			) : (
 				<div className={styles['empty-wrapper']}>
 					<Empty
-						imgUrl='src/assets/img/favorite-emoji.png'
+						imgUrl='img/favorite-emoji.png'
 						title='Закладок нет :('
 						subtitle='Вы ничего не добавляли в закладки'
 					/>
